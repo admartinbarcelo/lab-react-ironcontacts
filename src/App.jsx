@@ -23,8 +23,6 @@ function App() {
   const deleteName = (idContact) => {
     const deletedContacts = contacts.filter((contact) => contact.id !== idContact);
     setContacts(deletedContacts);
-    // const deletedContacts = contacts.filter((contact) => contact.id !== id);
-    // setContacts(deletedContacts)
   }
 
   return (
